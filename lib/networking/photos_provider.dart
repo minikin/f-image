@@ -16,7 +16,7 @@ class PhotoProvider {
     final response = await _client.get(
       '$_baseUrl/id/$photoId/$width/$height',
     );
-    print('fetchPhoto: ${response.statusCode}');
+
     if (response.statusCode == 200) {
       return compute(Photo.parsePhoto, response.body);
     } else {
@@ -30,7 +30,7 @@ class PhotoProvider {
     final response = await _client.get(
       '$_baseUrl/list?page=$page&limit=50',
     );
-    print('fetchPhotos: ${response.statusCode}');
+
     if (response.statusCode == 200) {
       return compute(Photo.parseListOfPhotos, response.body);
     } else {

@@ -1,3 +1,4 @@
+import 'package:f_image/screens/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
