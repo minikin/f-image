@@ -3,6 +3,7 @@
 This is the demo project to verify Memory Leak issue [#32143](https://github.com/flutter/flutter/issues/32143)
 
 [![Check video on youtube](https://i.ibb.co/VYw41YS/1.png)](https://youtu.be/laUxdV85Rxk)
+_Check screen recordings: https://youtu.be/laUxdV85Rxk_
 
 - [f_image](#fimage)
   - [Motivation](#Motivation)
